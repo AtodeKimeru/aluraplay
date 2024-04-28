@@ -10,6 +10,17 @@
 .cabecera__buscar__item {
   display: none;
 }
+
+
+/* seccion superior */
+.superior__seccion__container {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: scroll;
+  gap: 15px;
+}
+
  /* pie de pagina */
 .rodapie__container {
   display: flex;
