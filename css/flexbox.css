@@ -1,3 +1,4 @@
+/* cabecera */
 .cabecera__container {
   display: flex;
   justify-content: space-between;
@@ -9,8 +10,23 @@
 .cabecera__buscar__item {
   display: none;
 }
+ /* pie de pagina */
+.rodapie__container {
+  display: flex;
+  /*flex-direction: column;
+  flex-wrap: wrap;*/
+  flex-flow: column wrap;
+}
+
+
 @media (min-width: 834px){
+    /* cabecera */
     .cabecera__buscar__item {
       display: block;
+    }
+
+    /* pie de pagina */
+    .rodapie__container {
+      justify-content: space-between;
     }
 }
