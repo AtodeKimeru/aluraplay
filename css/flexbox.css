@@ -35,6 +35,12 @@
   display: None;
 }
 
+.menu__itens {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
 /* seccion superior */
 .superior__seccion__container {
   display: flex;
@@ -43,7 +49,6 @@
   overflow: scroll;
   gap: 15px;
 }
-
 
  /* pie de pagina */
 .rodapie__container {
@@ -60,6 +65,19 @@
       display: block;
     }
 
+    /* menú */
+    .menu__container {
+    position: fixed;
+    left: 0%;
+    width: 77px;
+    height: 100%;
+    }
+
+    .menu__lista {
+      display: flex;
+      flex-direction: column;
+    }
+  
     /* pie de pagina */
     .rodapie__container {
       justify-content: space-between;
